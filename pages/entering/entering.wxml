@@ -1,0 +1,23 @@
+<!--pages/entering/entering.wxml-->
+<view class="containers">
+  <view class="content">
+    <view class="content-section">
+      <text class="enter-txt">繁殖记录</text>
+      <text class="iconfont icon-jiantou2"></text>
+      <view class='enter-item'>
+        <view class='enter-icon'>
+          <image src='../../images/peizhong.png'></image>
+          <text>母猪配种</text>
+        </view>
+        <view class='enter-icon'>
+          <image src='../../images/peizhong.png'></image>
+          <text>母猪妊娠</text>
+        </view>
+        <view class='enter-icon'>
+          <image src='../../images/fenmian.png'></image>
+          <text>母猪分娩</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

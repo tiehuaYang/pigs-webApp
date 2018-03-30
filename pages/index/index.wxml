@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+<image src="../../images/bg.jpg" class="index-bg"></image>
+  <!--<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>-->
+  <!--<view class="usermotto">
+    <text class="user-motto" bindtap='linkAA'>{{motto}}</text>
+  </view>-->
+  <view class="logo-pic">
+    <view class="wrapper">
+      <image src="../../images/pig.png" class="logo-img"></image>
+    </view>
+  </view>
+  <view class="parent">
+    <view class="wrapper">
+      <text class="system-title">养猪系统页面</text>
+    </view>
+    <view class="wrapper">
+      <text class="username">账号</text>
+      <input class="username-frame"></input>
+    </view>
+    <view class="wrapper">
+      <text class="password">密码</text>
+      <input class="password-frame"></input>
+    </view>
+    <view class="wrapper">
+      <text class="login" bindtap="linksetting">登录</text>
+    </view>
+  </view>
+</view>

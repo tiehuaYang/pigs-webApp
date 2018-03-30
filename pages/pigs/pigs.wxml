@@ -1,0 +1,14 @@
+<!--pages/pigs/pigs.wxml-->
+<view class="pigs-content">
+  <view class="pigs-section1">
+    <searchbar></searchbar>
+    <view class="filterandadd-btn">
+      <button class="filter-btn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"><text class="iconfont icon-shaixuan">筛选</text></button>
+      <button class="add-btn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"><text class="iconfont icon-icon-">添加</text></button>
+    </view>  
+    <text class="divider-txt">9527</text>
+  </view>
+  
+</view>

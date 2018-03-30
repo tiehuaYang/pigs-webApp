@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/pigs/pigs",
+    "pages/entering/entering",
+    "pages/index/index",
+    "pages/setting/setting",
+    "pages/staging/staging"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "养猪系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/entering/entering",
+        "text": "录入",
+        "iconPath": "images/luru.png",
+        "selectedIconPath": "images/luru-bs.png"
+      },
+      {
+        "pagePath": "pages/pigs/pigs",
+        "text": "猪只",
+        "iconPath": "images/pig.png",
+        "selectedIconPath": "images/pig-bs.png"
+      },
+      {
+        "pagePath": "pages/staging/staging",
+        "text": "工作台",
+        "iconPath": "images/gongzuotai.png",
+        "selectedIconPath": "images/gongzuotai-bs.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "images/shezhi.png",
+        "selectedIconPath": "images/shezhi-bs.png"
+      }
+    ]
+  }
+}

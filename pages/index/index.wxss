@@ -1,0 +1,91 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 80px;
+  font-size: 28px;
+  color: #FFF;
+  width: 100%;
+}
+.index-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.logo-pic {
+  width: 100%;
+  height: 200px;
+}
+.parent {
+  width: 100%;
+  height: 200px;
+}
+.logo-img {
+  position: relative;
+  left: -50%;
+  white-space: nowrap;
+  width: 200px;
+  height: 200px;
+  opacity: 0.8;
+}
+.wrapper {
+  float: left;
+  position: relative;
+  left: 50%;
+  clear: both;
+}
+.system-title, .username, .password, .username-frame, .password-frame, .login {
+  position: relative;
+  left: -50%;
+  white-space: nowrap;
+}
+.system-title {
+  font-size: 28px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+.username, .password {
+  font-size: 16px;
+  color: #FFF;
+  position: absolute;
+  top: 40px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+.password {
+  top: 25px !important;
+}
+.username-frame, .password-frame {
+  width: 180px;
+  height: 30px;
+  border: 1px solid rgba(255,255,255,.5);
+  margin-left: 50px;
+  margin-top: 35px;
+  font-size: 16px;
+  color: #FFF;
+}
+.password-frame {
+  margin-top: 20px !important;
+}
+.login {
+  font-size: 16px;
+  color: #79BFF2;
+  position: absolute;
+  top: 10px;
+}
